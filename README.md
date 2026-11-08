@@ -32,7 +32,7 @@ A browser-based application that lets people explore a collection of small, inte
 ## Project Structure
 
 ```text
-smallweb-browser/
+small-web-browser/
 ├── frontend/
 │   ├── src/
 │   │   └── app/
@@ -61,8 +61,8 @@ smallweb-browser/
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd smallweb-browser
+git clone https://github.com/Mahad-6900/small-web-browser.git
+cd small-web-browser
 ```
 
 ### 2. Backend Setup
@@ -85,13 +85,11 @@ Start the backend:
 npm run start:dev
 ```
 
-The API will run at:
-
-`http://localhost:4000`
+The API will run at `http://localhost:4000`.
 
 ### 3. Seed the Database
 
-Open another terminal:
+Open another terminal in the project folder:
 
 ```bash
 cd backend
@@ -102,7 +100,7 @@ The seed script populates the database with sample people, websites, and browsin
 
 ### 4. Frontend Setup
 
-Open another terminal:
+Open another terminal in the project folder:
 
 ```bash
 cd frontend
@@ -121,9 +119,7 @@ Start the frontend:
 npm run dev
 ```
 
-Open:
-
-`http://localhost:3000`
+Open `http://localhost:3000` in your browser.
 
 ## Application Concepts
 
